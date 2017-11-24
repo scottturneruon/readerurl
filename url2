@@ -20,7 +20,7 @@ import org.w3c.dom.Text;
 public class url2 {
     private  String target = "c:/example2.xml";
     public static void main(String[] args) throws Exception {
-        URL yahoo = new URL("file:....../Untitled.html");//fill-in your own path in place of......
+        URL yahoo = new URL("file://....../Untitled.html");//fill-in your own path in place of......
         DocumentBuilderFactory dbfac = DocumentBuilderFactory.newInstance();
         DocumentBuilder docBuilder = dbfac.newDocumentBuilder();
         Document doc = docBuilder.newDocument();
